@@ -1,0 +1,53 @@
+  
+  .book-title-font {
+    font-size: 48px;
+  }
+  
+  .price-font, .header-font {
+    font-size: 26px;
+  }
+  
+  .custom-divider {
+    margin: 20px 0;
+    border-bottom: 1px solid #ccc;
+    text-align: left;
+  }
+  
+  .custom-divider span {
+    background-color: white;
+    padding-right: 10px;
+  }
+  
+  .info-section {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+  }
+  
+  .price-section {
+    background-color: #fcfaf7;
+    padding: 20px;
+    margin-top: 20px;
+    width: 100%;
+  }
+  
+  .button {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px; 
+  }
+  
+  .button a {
+    display: inline-block;
+    background-color: #ddd;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+  }
+  
+  .button a.buy {
+    background-color: green;
+    color: white;
+  }
+  
